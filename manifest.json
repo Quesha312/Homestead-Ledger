@@ -1,0 +1,13 @@
+{
+  "name": "Homestead Ledger",
+  "short_name": "Ledger",
+  "description": "Track your livestock and learn as you go.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#14201A",
+  "theme_color": "#14201A",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
