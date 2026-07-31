@@ -229,11 +229,10 @@
     <p class="sub">We sent a 6-digit code to <strong id="verify-email-echo" class="mono"></strong>. Enter it below to confirm it's you.</p>
     <div class="field">
       <label>Verification code</label>
-      <input type="text" id="input-verify-code" placeholder="123456" inputmode="numeric" maxlength="6">
+      <input type="text" id="input-verify-code" placeholder="12345678" inputmode="numeric" maxlength="8">
     </div>
     <div class="err-msg" id="verify-err"></div>
     <button class="btn btn-primary" onclick="submitVerify()">Verify</button>
-    <div class="banner-note">Demo mode: any 6-digit code works. In production this confirms real email ownership via a one-time code.</div>
   </div>
 
   <!-- ONBOARDING: SET PIN -->
